@@ -1,32 +1,71 @@
 {
-  "journals": [
-    {
-      "title": "Entry 1 Title",
-      "date": "2024-10-27",
-      "content": "Your journal entry text here...",
-      "formatted_text": {  // Store formatting information
-        "bold_ranges": [[0, 5], [10, 15]], // Start and end indices for bold text
-        "italic_ranges": [[20, 25]] // Start and end indices for italic text
-      }
-    },
-    {
-      "title": "Another Entry",
-      "date": "2024-10-28",
-      "content": "More journaling...",
-      "formatted_text": {
-        "bold_ranges": [],
-        "italic_ranges": []
-      }
-    }
-  ],
-  "vision_boards": [
-    {
-      "name": "My Goals",
-      "images": ["vision_boards/image1.jpg", "vision_boards/image2.png"]
-    },
-    {
-      "name": "Travel Dreams",
-      "images": ["vision_boards/travel1.jpg"]
-    }
-  ]
+    "journals": [
+        {
+            "title": "Entry 1 Title",
+            "date": "2024-10-27",
+            "content": "Your journal entry text here...",
+            "formatted_text": {
+                "bold_ranges": [
+                    [
+                        0,
+                        5
+                    ],
+                    [
+                        10,
+                        15
+                    ]
+                ],
+                "italic_ranges": [
+                    [
+                        20,
+                        25
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Another Entry",
+            "date": "2024-10-28",
+            "content": "More journaling...",
+            "formatted_text": {
+                "bold_ranges": [],
+                "italic_ranges": []
+            }
+        },
+        {
+            "title": "First Journal entry",
+            "date": "2025-01-30",
+            "content": "Testing the functionality\n",
+            "formatted_text": {
+                "bold_ranges": [],
+                "italic_ranges": []
+            }
+        },
+        {
+            "title": "First Journal entry",
+            "date": "2025-01-30",
+            "content": "Testing the functionality\n",
+            "formatted_text": {
+                "bold_ranges": [],
+                "italic_ranges": []
+            }
+        }
+    ],
+    "vision_boards": [
+        {
+            "name": "My Goals",
+            "images": [
+                "vision_boards/image1.jpg",
+                "vision_boards/image2.png",
+                "vision_boards\\133817243528853411.jpg",
+                "vision_boards\\2020 Nissan Kicks Pearl.jpg"
+            ]
+        },
+        {
+            "name": "Travel Dreams",
+            "images": [
+                "vision_boards/travel1.jpg"
+            ]
+        }
+    ]
 }
